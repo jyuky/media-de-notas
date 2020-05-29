@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+   
+    <title> Média notas </title>
+</head>
+<body>
+    <header>
+        <h1> Calcule a média das sua notas </h1>
+    </header>
+    
+    <section>
+        <div> 
+            <input type="number" name="nota1" id="nota1" min="1" max="5"> +
+            <input type="number" name="nota2" id="nota2" min="1" max="5"> +
+            <input type="number" name="nota3" id="nota3" min="1" max="5"> /3 =
+            <input type="button" value="calcular" onclick="calcular()">
+        </div>
+     
+        <div id="resultado"> campo de respostas </div>
+    </section>
+    
+    <footer>&copy J.Yuky </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
